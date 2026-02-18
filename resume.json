@@ -6,7 +6,7 @@
     "email": "byseungje@gmail.com",
     "phone": "[REDACTED]",
     "url": "https://github.com/byseungje",
-    "summary": "금융·공공 대형 시스템에서 6년간 결제·정산·마이데이터 백엔드를 설계·운영한 11년차 시니어 개발자. 우체국 쇼핑몰 결제/클레임 시스템 2년 운영(외부 마켓 3사 연계, CS 30% 감소), 한전KDN 영업배전 정산 배치 개발(Spring Batch), 우체국금융 마이데이터 차세대 구축 등 안정성이 핵심인 시스템에서 Java/Spring 기반 백엔드 아키텍처를 구축해왔습니다. CTO 2회·PM 2회 팀 리딩 경험과 Flutter 앱 1인 출시(App Store/Play Store)로 기술 리더십과 학습 민첩성을 동시에 증명합니다.",
+    "summary": "결제·정산·외부 연동 도메인 10년차 백엔드 개발자. 우체국 쇼핑몰에서 일 17K~26K 주문을 처리하는 결제/클레임 시스템을 2년간 운영하며 외부 마켓 3사(11번가·옥션·G마켓) 공통 아키텍처를 설계해 매출 ~20% 증가에 기여했습니다. 한전KDN에서는 COBOL 레거시 정산 배치를 Spring Batch로 전환하여 월 175만 건 처리 시간을 80% 이상 단축(3~4시간→40~50분)했습니다. CTO 2회·PM 2회 팀 리딩 경험과 Flutter 앱 1인 출시(App Store/Play Store)로 기술 리더십과 학습 민첩성을 동시에 증명합니다.",
     "location": {
       "city": "나주시",
       "region": "전라남도",
@@ -32,12 +32,23 @@
   "work": [
     {
       "name": "앤솔루션",
-      "position": "개발팀 팀장",
+      "position": "개발팀 팀장 / PL",
       "startDate": "2025-03",
-      "summary": "개발팀 리딩 및 프로젝트 기술 의사결정 총괄",
+      "summary": "한전 AMI 회선관리 시스템 PL 및 개발팀 리딩",
       "highlights": [
-        "개발팀 리딩: 프로젝트별 기술 스택 선정, 아키텍처 리뷰, 코드 품질 기준 수립",
-        "팀 내 개발 프로세스 표준화 및 일정 관리"
+        "한전 AMI 회선관리 시스템 PL — Spring Boot + JPA 기반 팀 리드",
+        "개발팀 리딩: 프로젝트별 기술 스택 선정, 아키텍처 리뷰, 코드 품질 기준 수립"
+      ]
+    },
+    {
+      "name": "우체국금융 AML (파견: 인노앤엘테크)",
+      "position": "과장 / 백엔드 개발자",
+      "startDate": "2025-01",
+      "endDate": "2025-02",
+      "summary": "우체국금융 자금세탁방지(AML) 시스템 성능 최적화",
+      "highlights": [
+        "STR(의심거래보고) 추출 배치의 단일 처리 구조를 병렬 처리로 재설계 — 처리 시간 5시간→1시간 48분 (64% 단축)",
+        "룰 추출 모니터링 로그 시스템 독자 구축 — 대규모 데이터 처리 중 오류 실시간 탐지 체계 마련"
       ]
     },
     {
@@ -47,11 +58,12 @@
       "endDate": "2025-02",
       "summary": "스타트업에서 공공 클라이언트 대상 서비스와 자체 앱을 기획부터 출시까지 전담",
       "highlights": [
-        "Flutter + Spring Boot 기반 앱/웹/API 전체 아키텍처를 직접 설계·개발하여 2개 서비스 출시",
-        "JWT 인증 체계, API 버저닝, 로깅·모니터링 구조를 설계하여 보안·운영 기반 확보",
+        "Flutter + Spring Boot 기반 앱/웹/API 전체 아키텍처를 직접 설계·개발하여 3개 서비스 출시",
+        "JWT 인증 체계, API 버저닝, 로깅·모니터링 구조 설계 — 보안·운영 기반 확보",
         "GitHub Actions + Fastlane으로 Android/iOS 양대 마켓 자동 배포 파이프라인 구축 — 배포 시간 5분 이내",
         "창원시 동물 관리 시스템 수주·개발 (React.js, Spring Boot, JPA) — 공공 클라이언트 납품 완료",
-        "MeowRo 길고양이 급식소 관리 앱: 기획→디자인→개발→App Store/Play Store 출시 — 1인 전 과정 수행"
+        "MeowRo 길고양이 급식소 관리 앱: 기획→출시 1인 수행 — 10개 동물보호협회 및 창원시 도입 검토",
+        "OpenAI API 기반 자기이해 분석 플랫폼 외주 개발 — 테스터단 피드백 긍정률 90%"
       ]
     },
     {
@@ -59,10 +71,12 @@
       "position": "차장 / 백엔드 개발자",
       "startDate": "2024-06",
       "endDate": "2024-10",
-      "summary": "광주은행 차세대 시스템을 위한 Low-Code 플랫폼 프레임워크 구축",
+      "summary": "JB지주사 산하 금융기관 공통 Mendix Low-Code 프레임워크 구축 — 국내 금융권 Mendix 첫 사례",
       "highlights": [
-        "Mendix Low-Code 플랫폼 공통 프레임워크를 설계·구축하여 개발 표준 수립",
-        "사내 결재 기능을 Mendix 공통 컴포넌트로 개발 — 재사용성 확보"
+        "Mendix 코어 소스 수정·패키징으로 광주은행 전용 공통 프레임워크 설계·구축 — 지멘스 코리아와 협업",
+        "사내 결재 기능을 재사용 가능한 UI 컴포넌트로 모듈화 — 이후 상시감사 내부통제 시스템에 성공적 적용",
+        "Crew AI(멀티에이전트 AI) 활용 리서치 보고서 자동 생성 PoC — 외부 리서치 기업 의뢰 대체 가능성 입증",
+        "신규 개발팀 대상 Mendix 프레임워크 교육 및 기술 지원 직접 수행"
       ]
     },
     {
@@ -70,10 +84,11 @@
       "position": "수석 개발자",
       "startDate": "2023-11",
       "endDate": "2023-12",
-      "summary": "우체국 금융 마이데이터 차세대 시스템의 핵심 권역(은행·카드·보험) 개발",
+      "summary": "우체국 금융 마이데이터 차세대 시스템 — DB 표준화 및 신규 API 개발",
       "highlights": [
-        "마이데이터 1.0 기존 시스템 분석·수정 및 2.0 신규 API 개발 — 은행, 카드, 보험 3개 권역 담당",
-        "TeraStream 기반 대용량 배치 처리 구현 (Java, Oracle)"
+        "마이데이터 1.0 DB 컬럼명 메타시스템 표준 등록·정비로 데이터 일관성 확보 — SR 건수 20% 감소",
+        "마이데이터 2.0 신규 API 설계·개발 — 은행·카드·보험·대출·지원 5개 권역 담당",
+        "개인(신용)정보 제3자 제공 동의 API 개발 — 기존 DB 스키마 개편 및 동의 이력 관리 체계 구축"
       ]
     },
     {
@@ -81,10 +96,12 @@
       "position": "CTO",
       "startDate": "2023-06",
       "endDate": "2023-12",
-      "summary": "농림축산부 나무의사 업무관리 플랫폼을 제로부터 설계·구축",
+      "summary": "농림축산부 나무의사 업무관리 플랫폼을 스타트업 첫 개발자로 제로부터 설계·구축",
       "highlights": [
-        "나무 진단·처방 관리 시스템 전체 아키텍처 설계 및 백엔드 구축 (Spring Boot + JPA + MariaDB)",
-        "CTO로서 기술 의사결정 전담: 프레임워크 선정, DB 설계, API 스펙 정의"
+        "나무 진단·처방 관리 시스템 전체 아키텍처 설계 및 백엔드·모바일 구축 (Spring Boot + JPA + MariaDB + Flutter)",
+        "사용자(나무의사·간호사) 인터뷰 기반 요구사항 분석 — 업무 프로세스 전산화 설계",
+        "HTML5 Geolocation 오차 문제 발견 → Flutter 앱으로 전환하여 위치 정보 정확도 대폭 향상",
+        "MS(마이크로소프트) 바우처 투자 유치 및 인큐베이팅 프로그램 참여 성과 도출"
       ]
     },
     {
@@ -92,36 +109,39 @@
       "position": "PL / 과장",
       "startDate": "2023-02",
       "endDate": "2023-08",
-      "summary": "한전KDN 영업배전 차세대 프로젝트에서 결재 정산 배치 시스템을 PL로 설계·개발",
+      "summary": "COBOL 레거시 정산 배치를 Spring Batch로 전환 — 월 175만 건, 처리 시간 80%+ 단축",
       "highlights": [
-        "결재 정보 정산 배치 시스템 설계·개발 (Spring Batch + Oracle) — 정산 자동화율 향상",
-        "카카오페이·네이버페이·농어촌융자금 연동 배치 구현 — 3개 외부 결제 채널 통합",
-        "PL로서 배치 파트 개발팀 교육 및 일정 관리"
+        "COBOL 기반 전기요금 정산 로직을 Spring Batch로 재설계·구현 — 월 175만 건(피크 일 20~30만 건) 처리, 3~4시간→40~50분으로 80%+ 단축",
+        "카카오페이·네이버페이·농어촌융자금 연동 정산 배치 구현 — 3개 외부 결제 채널 통합",
+        "COBOL 고정소수점 vs Java 부동소수점 차이에서 이자 계산 오류 발견 — 40년간 누적 데이터 소급 보정",
+        "PL로서 초급 개발자 5명 대상 Spring Batch 기술 교육 및 코드 리뷰 진행"
       ]
     },
     {
-      "name": "KISA 한국인터넷진흥원 (파견: 아비도스)",
-      "position": "PM / 과장",
+      "name": "KISA 한국인터넷진흥원 (파견: 아비도스/SDS)",
+      "position": "PM·팀장 / 과장",
       "startDate": "2022-04",
       "endDate": "2023-01",
-      "summary": "KISA 인터넷진흥원에서 4개 시스템을 PM으로 관리하며 2개를 직접 개발",
+      "summary": "KISA 8개 사이트 운영 총괄 (4인 팀), 스팸 신고 앱 단독 개발, 블록체인 PMS 구축",
       "highlights": [
-        "스팸 신고 앱 단독 설계·개발·배포 (Flutter + Spring Boot) — PM 겸 개발자로 전 과정 수행",
-        "한국인터넷진흥원 메인 홈페이지 리뉴얼 PM — 일 수만 방문자 대상 국가기관 홈페이지",
+        "KISA 메인 홈페이지·털린 내정보찾기 등 8개 사이트 4인 팀(신입 3명+중급 1명 직접 채용) 운영 총괄",
+        "스팸 신고 앱 Flutter 크로스플랫폼 단독 설계·개발·출시 — 통신사 API 연계 및 KISA 검증 시스템 매핑",
         "'털린 내정보 찾기' 서비스 개발 (Vue.js + Spring Boot + Oracle) — 국민 대상 보안 서비스",
-        "PMS 업무 시스템 구축 — 4개 프로젝트 병행 관리 경험"
+        "블록체인 PMS 기획·설계·개발 — 프로젝트 이력 관리 및 개인정보 마스킹 보안 설계",
+        "신입 개발자 매일 1~2시간 기술 교육 + 수준별 업무 분배로 팀 역량 체계적 향상"
       ]
     },
     {
-      "name": "한전KDN 영업정보통합운영 (파견: 범우정보기술)",
+      "name": "한전KDN 영업정보통합운영 (파견: 범우정보기술/테라에너지)",
       "position": "과장",
       "startDate": "2021-01",
       "endDate": "2022-03",
-      "summary": "한전KDN 영업정보통합운영시스템 1년 2개월간 안정 운영 및 유지보수",
+      "summary": "영업관리·비상고객응대·협력사업무지원 3개 시스템 단독 관리, KISA 보안 점검 300건+ 대응",
       "highlights": [
-        "영업정보통합운영시스템 안정 운영 — 장애 대응 및 성능 개선 (eGov, JSP, Oracle)",
-        "비상연락망·협력사업무지원 등 연계 시스템 유지보수",
-        "레거시 COBOL 시스템과의 데이터 연계 처리"
+        "COBOL+Servlet+JSP 기반 3개 전력관리 시스템 단독 운영 — 장애 대응 및 성능 개선",
+        "KISA 외부 보안 점검 취약점 300건+ 우선순위 분류(극/상/중/하) 후 순차 대응 — 재점검 양호 통과",
+        "XSS, SQL Injection 등 주요 취약점 제거 — 보안 인증 기준 충족",
+        "팀 유일 Java 개발자로 전기안전공사 데이터 연계 RESTful API + crontab 자동화 구축"
       ]
     },
     {
@@ -129,12 +149,13 @@
       "position": "주임",
       "startDate": "2018-11",
       "endDate": "2020-11",
-      "summary": "우체국 쇼핑몰 결제·클레임 백엔드 시스템을 2년간 개발·운영하며 커머스 도메인 전문성 확보",
+      "summary": "일 17K~26K 주문 처리 이커머스 시스템 2년 운영 — 외부 마켓 3사 공통 아키텍처 설계, 매출 ~20% 증가 기여",
       "highlights": [
-        "결제·클레임 처리 백엔드 시스템 2년 운영 — 주문부터 정산까지 핵심 트랜잭션 도메인 담당",
-        "외부 마켓 연계 시스템 개발: 11번가·옥션·G마켓 REST API 연동으로 멀티채널 판매 인프라 구축",
-        "주문/클레임 처리 로직 개선 및 e콜센터 시스템 자동화로 CS 응대 건수 약 30% 감소 달성",
-        "Spring + Oracle 기반 대용량 주문 처리 및 정산 배치 운영"
+        "결제·클레임 처리 백엔드 2년 운영 — 일 17K~26K 주문, 주문아이템 수천만 건 규모 트랜잭션 담당",
+        "옥션·G마켓·11번가 외부 마켓 공통 아키텍처 설계 (12명 프로젝트, WBS 25% 리드) — 매출 ~20% 증가 기여",
+        "eBay 최초 연동 5개월 → 11번가 2~3주로 단축 — 공통 프로세스 추상화로 신규 마켓 연동 공수 대폭 절감",
+        "주문/클레임 처리 로직 개선 + e콜센터 자동화로 CS 응대 건수 약 30% 감소 달성",
+        "복합 결제(신용카드·무통장·온누리상품권), 대량 주문 엑셀 업로드, 장바구니 쿠폰 기능 개발"
       ]
     },
     {
@@ -142,10 +163,12 @@
       "position": "팀장",
       "startDate": "2017-03",
       "endDate": "2018-09",
-      "summary": "현대자동차 계열 휴게소 정보 제공 B2C 플랫폼을 팀장으로 신규 구축",
+      "summary": "현대자동차 계열 휴게소 정보 B2C 플랫폼 — BM 재설계로 2억원 투자 유치",
       "highlights": [
-        "휴게소 정보 플랫폼 전체 아키텍처 설계·구축 (Spring, MariaDB, AWS EC2)",
-        "위치 기반 데이터 API 설계 및 Web + App 동시 서비스 운영"
+        "기존 BM의 기술적 한계를 분석해 아키텍처 전면 재설계 — 2억원 외부 투자 유치 성과",
+        "휴게소 정보 플랫폼 전체 아키텍처 설계·구축 (Spring, MariaDB, AWS EC2) — 우아한형제들 멘토링",
+        "위치 기반 최저가 주유소 추천, IoT 화장실 청결도 표시, RESTful API 설계",
+        "Web + Android App 동시 서비스 운영 — Front/Back Office 및 공공데이터 연계"
       ]
     },
     {
@@ -257,7 +280,7 @@
   "projects": [
     {
       "name": "MeowRo - 길고양이 급식소 관리 앱",
-      "description": "길고양이 돌보미 커뮤니티를 위한 크로스플랫폼 앱. 기획→디자인→개발→배포→운영 전 과정을 1인 풀스택으로 수행하여 App Store/Play Store 양대 마켓 출시 완료.",
+      "description": "길고양이 돌보미 커뮤니티를 위한 크로스플랫폼 앱. 기획→디자인→개발→배포→운영 전 과정을 1인 풀스택으로 수행하여 App Store/Play Store 양대 마켓 출시. 10개 동물보호협회 및 창원시 도입 검토 중.",
       "highlights": [
         "Flutter 3.41 + Riverpod + Clean Architecture 프론트엔드",
         "Supabase 백엔드 (Auth, PostgreSQL, Storage, Edge Functions, Realtime, RLS)",
@@ -283,8 +306,8 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/byseungje/resume/main/resume.json",
-    "version": "v2.0.0",
+    "version": "v3.0.0",
     "lastModified": "2026-02-18",
-    "note": "v2.0 — STAR format applied, strategic emphasis on client companies (Korea Post, KEPCO KDN, KISA). Skills honest: no Redis/Kubernetes/MSA (no production experience). eGov Framework removed from skills."
+    "note": "v3.0 — All 7 PDFs cross-referenced and merged. Quantitative metrics applied: daily orders 17K-26K, monthly 1.75M settlements, 80%+ batch time reduction, ~20% revenue increase, 64% AML optimization, 300+ security fixes, 2B KRW investment. Skills honest: no Redis/Kubernetes/MSA."
   }
 }
