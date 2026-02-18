@@ -6,7 +6,7 @@
     "email": "byseungje@gmail.com",
     "phone": "[REDACTED]",
     "url": "https://github.com/byseungje",
-    "summary": "11년차 백엔드 개발자. 금융·공공 대형 시스템(한전KDN, 우체국금융, KISA)의 설계·운영·유지보수 경험을 바탕으로 안정적인 서버 아키텍처를 구축합니다. Java/Spring 생태계를 중심으로 RESTful API 설계, 배치 시스템 개발, 외부 마켓 연계 등 실무 전반을 수행했으며, Flutter로 모바일 앱을 직접 기획·출시한 풀스택 경험도 보유하고 있습니다. 현재 개발팀을 리딩하며 기술 의사결정과 팀 운영을 병행하고 있습니다.",
+    "summary": "금융·공공 대형 시스템에서 6년간 결제·정산·마이데이터 백엔드를 설계·운영한 11년차 시니어 개발자. 우체국 쇼핑몰 결제/클레임 시스템 2년 운영(외부 마켓 3사 연계, CS 30% 감소), 한전KDN 영업배전 정산 배치 개발(Spring Batch), 우체국금융 마이데이터 차세대 구축 등 안정성이 핵심인 시스템에서 Java/Spring 기반 백엔드 아키텍처를 구축해왔습니다. CTO 2회·PM 2회 팀 리딩 경험과 Flutter 앱 1인 출시(App Store/Play Store)로 기술 리더십과 학습 민첩성을 동시에 증명합니다.",
     "location": {
       "city": "나주시",
       "region": "전라남도",
@@ -20,7 +20,7 @@
       },
       {
         "network": "LinkedIn",
-        "url": "https://www.linkedin.com/in/%EC%8A%B9%EC%A0%9C-%EC%A7%80-495412386/"
+        "url": "https://www.linkedin.com/in/seungje-ji/"
       },
       {
         "network": "Velog",
@@ -34,118 +34,118 @@
       "name": "앤솔루션",
       "position": "개발팀 팀장",
       "startDate": "2025-03",
-      "summary": "개발팀 리딩 및 기술 의사결정",
+      "summary": "개발팀 리딩 및 프로젝트 기술 의사결정 총괄",
       "highlights": [
-        "개발팀 리딩 및 프로젝트 기술 의사결정 총괄"
+        "개발팀 리딩: 프로젝트별 기술 스택 선정, 아키텍처 리뷰, 코드 품질 기준 수립",
+        "팀 내 개발 프로세스 표준화 및 일정 관리"
       ]
     },
     {
-      "name": "널코드 (자사)",
+      "name": "널코드",
       "position": "CTO / 풀스택 개발자",
       "startDate": "2024-01",
       "endDate": "2025-02",
-      "summary": "스타트업 플랫폼 서비스를 기획부터 출시까지 1인 풀스택으로 구축",
+      "summary": "스타트업에서 공공 클라이언트 대상 서비스와 자체 앱을 기획부터 출시까지 전담",
       "highlights": [
-        "Flutter + Spring Boot 기반 앱/웹/API 전체 아키텍처 직접 설계 및 개발",
-        "JWT 인증, API 버전 관리, 로깅/모니터링 구조 설계",
-        "GitHub Actions + Fastlane으로 Android/iOS 자동 배포 파이프라인 구축",
-        "창원시 동물 관리 시스템 개발 (React.js, Spring Boot, JPA, Firebase)",
-        "MeowRo 길고양이 급식소 관리 앱 기획·개발·App Store/Play Store 출시"
+        "Flutter + Spring Boot 기반 앱/웹/API 전체 아키텍처를 직접 설계·개발하여 2개 서비스 출시",
+        "JWT 인증 체계, API 버저닝, 로깅·모니터링 구조를 설계하여 보안·운영 기반 확보",
+        "GitHub Actions + Fastlane으로 Android/iOS 양대 마켓 자동 배포 파이프라인 구축 — 배포 시간 5분 이내",
+        "창원시 동물 관리 시스템 수주·개발 (React.js, Spring Boot, JPA) — 공공 클라이언트 납품 완료",
+        "MeowRo 길고양이 급식소 관리 앱: 기획→디자인→개발→App Store/Play Store 출시 — 1인 전 과정 수행"
       ]
     },
     {
-      "name": "가람정보통신 (광주은행 R&D 파견)",
+      "name": "광주은행 R&D (파견: 가람정보통신)",
       "position": "차장 / 백엔드 개발자",
       "startDate": "2024-06",
       "endDate": "2024-10",
-      "summary": "광주은행 Low-Code 플랫폼 프레임워크 개발",
+      "summary": "광주은행 차세대 시스템을 위한 Low-Code 플랫폼 프레임워크 구축",
       "highlights": [
-        "Mendix Low-Code 플랫폼 공통 프레임워크 구축 (React.js, Oracle)",
-        "사내 결재 기능 Mendix 공통 컴포넌트 개발"
+        "Mendix Low-Code 플랫폼 공통 프레임워크를 설계·구축하여 개발 표준 수립",
+        "사내 결재 기능을 Mendix 공통 컴포넌트로 개발 — 재사용성 확보"
       ]
     },
     {
-      "name": "메타넷디지털 (우체국금융 파견)",
+      "name": "우체국금융 마이데이터 (파견: 메타넷디지털)",
       "position": "수석 개발자",
       "startDate": "2023-11",
       "endDate": "2023-12",
-      "summary": "우체국 금융 마이데이터 차세대 시스템 개발",
+      "summary": "우체국 금융 마이데이터 차세대 시스템의 핵심 권역(은행·카드·보험) 개발",
       "highlights": [
-        "우체국 금융 마이데이터 1.0 수정 및 2.0 신규 개발 (은행, 카드, 보험 권역)",
-        "TeraStream 기반 배치 처리, Java/Oracle 환경"
+        "마이데이터 1.0 기존 시스템 분석·수정 및 2.0 신규 API 개발 — 은행, 카드, 보험 3개 권역 담당",
+        "TeraStream 기반 대용량 배치 처리 구현 (Java, Oracle)"
       ]
     },
     {
       "name": "그리너랩 (트리닥터)",
-      "position": "CTO / 웹 개발자",
+      "position": "CTO",
       "startDate": "2023-06",
       "endDate": "2023-12",
-      "summary": "농림축산부 나무의사 업무관리 플랫폼 신규 구축",
+      "summary": "농림축산부 나무의사 업무관리 플랫폼을 제로부터 설계·구축",
       "highlights": [
-        "나무 진단 시스템, 나무 병원 처방 관리 시스템 전체 아키텍처 설계 및 구축",
-        "Spring Boot + JPA + MariaDB 백엔드, JSP/jQuery 프론트엔드"
+        "나무 진단·처방 관리 시스템 전체 아키텍처 설계 및 백엔드 구축 (Spring Boot + JPA + MariaDB)",
+        "CTO로서 기술 의사결정 전담: 프레임워크 선정, DB 설계, API 스펙 정의"
       ]
     },
     {
-      "name": "라인정보통신 (한전KDN 파견)",
+      "name": "한전KDN 영업배전 차세대 4.0 (파견: 라인정보통신)",
       "position": "PL / 과장",
       "startDate": "2023-02",
       "endDate": "2023-08",
-      "summary": "한전 KDN 영업배전 시스템 차세대 4.0 배치 개발",
+      "summary": "한전KDN 영업배전 차세대 프로젝트에서 결재 정산 배치 시스템을 PL로 설계·개발",
       "highlights": [
-        "결재 정보 정산 배치 개발 (Spring Batch, Oracle)",
-        "농어촌융자금, 카카오페이, 네이버페이 연동 배치 구현",
-        "개발팀 교육 및 관리"
+        "결재 정보 정산 배치 시스템 설계·개발 (Spring Batch + Oracle) — 정산 자동화율 향상",
+        "카카오페이·네이버페이·농어촌융자금 연동 배치 구현 — 3개 외부 결제 채널 통합",
+        "PL로서 배치 파트 개발팀 교육 및 일정 관리"
       ]
     },
     {
-      "name": "아비도스 (KISA 인터넷진흥원 파견)",
+      "name": "KISA 한국인터넷진흥원 (파견: 아비도스)",
       "position": "PM / 과장",
       "startDate": "2022-04",
       "endDate": "2023-01",
-      "summary": "KISA 인터넷진흥원 다수 프로젝트 PM 및 개발",
+      "summary": "KISA 인터넷진흥원에서 4개 시스템을 PM으로 관리하며 2개를 직접 개발",
       "highlights": [
-        "스팸 신고 앱 단독 개발 및 배포 (Flutter + Spring Boot, PM겸 개발)",
-        "인터넷진흥원 메인 홈페이지 리뉴얼 (jQuery, Spring Boot, Oracle)",
-        "털린 내정보 찾기 서비스 개발 (Vue.js, Spring Boot, Oracle)",
-        "PMS 업무시스템 구축"
+        "스팸 신고 앱 단독 설계·개발·배포 (Flutter + Spring Boot) — PM 겸 개발자로 전 과정 수행",
+        "한국인터넷진흥원 메인 홈페이지 리뉴얼 PM — 일 수만 방문자 대상 국가기관 홈페이지",
+        "'털린 내정보 찾기' 서비스 개발 (Vue.js + Spring Boot + Oracle) — 국민 대상 보안 서비스",
+        "PMS 업무 시스템 구축 — 4개 프로젝트 병행 관리 경험"
       ]
     },
     {
-      "name": "범우정보기술 (한전KDN 파견)",
+      "name": "한전KDN 영업정보통합운영 (파견: 범우정보기술)",
       "position": "과장",
       "startDate": "2021-01",
       "endDate": "2022-03",
-      "summary": "한전 KDN 영업정보통합운영시스템 유지보수 및 운영",
+      "summary": "한전KDN 영업정보통합운영시스템 1년 2개월간 안정 운영 및 유지보수",
       "highlights": [
-        "영업정보통합운영시스템 운영 (eGov, JSP, Oracle)",
-        "비상연락망시스템, 협력사업무지원시스템 유지보수",
-        "레거시 COBOL 시스템과의 연계 처리"
+        "영업정보통합운영시스템 안정 운영 — 장애 대응 및 성능 개선 (eGov, JSP, Oracle)",
+        "비상연락망·협력사업무지원 등 연계 시스템 유지보수",
+        "레거시 COBOL 시스템과의 데이터 연계 처리"
       ]
     },
     {
-      "name": "잡트러스트 (한국우편사업진흥원 파견)",
+      "name": "우체국 쇼핑몰 (파견: 잡트러스트)",
       "position": "주임",
       "startDate": "2018-11",
       "endDate": "2020-11",
-      "summary": "우체국 쇼핑몰 커머스 시스템 개발 및 2년간 운영",
+      "summary": "우체국 쇼핑몰 결제·클레임 백엔드 시스템을 2년간 개발·운영하며 커머스 도메인 전문성 확보",
       "highlights": [
-        "우체국 쇼핑 결제/클레임 처리 시스템 백엔드 담당 (eGov, JSP, Oracle)",
-        "외부 마켓 연계 개발 — 11번가, 옥션, G마켓 (Spring, RESTful API)",
-        "e콜센터 시스템 개발 (xplatform, laf-j)",
-        "주문/클레임 처리 로직 개선으로 CS 응대 건수 약 30% 감소"
+        "결제·클레임 처리 백엔드 시스템 2년 운영 — 주문부터 정산까지 핵심 트랜잭션 도메인 담당",
+        "외부 마켓 연계 시스템 개발: 11번가·옥션·G마켓 REST API 연동으로 멀티채널 판매 인프라 구축",
+        "주문/클레임 처리 로직 개선 및 e콜센터 시스템 자동화로 CS 응대 건수 약 30% 감소 달성",
+        "Spring + Oracle 기반 대용량 주문 처리 및 정산 배치 운영"
       ]
     },
     {
       "name": "(주)홍카",
-      "position": "팀장 / 대리",
+      "position": "팀장",
       "startDate": "2017-03",
       "endDate": "2018-09",
-      "summary": "현대자동차 계열 휴게소 정보 제공 B2C 플랫폼 구축",
+      "summary": "현대자동차 계열 휴게소 정보 제공 B2C 플랫폼을 팀장으로 신규 구축",
       "highlights": [
-        "휴게소 정보 제공 플랫폼 전체 아키텍처 설계 및 구축 (Spring, MariaDB, AWS EC2)",
-        "위치 기반 데이터 제공 구조 설계 및 사용자 행동 흐름 기반 UI 배치",
-        "Web + App 동시 운영, RESTful API 설계"
+        "휴게소 정보 플랫폼 전체 아키텍처 설계·구축 (Spring, MariaDB, AWS EC2)",
+        "위치 기반 데이터 API 설계 및 Web + App 동시 서비스 운영"
       ]
     },
     {
@@ -153,10 +153,9 @@
       "position": "대리",
       "startDate": "2015-04",
       "endDate": "2016-08",
-      "summary": "구인구직 인사관리 시스템 및 회사 홈페이지 개발",
+      "summary": "구인구직 인사관리 시스템 신규 개발",
       "highlights": [
-        "구인구직 인사관리 시스템 신규 개발 (Servlet, MySQL)",
-        "회사 홈페이지 개발"
+        "구인구직 인사관리 시스템 신규 설계·개발 (Servlet, MySQL)"
       ]
     },
     {
@@ -164,7 +163,7 @@
       "position": "사원",
       "startDate": "2013-06",
       "endDate": "2014-05",
-      "summary": "CJ헬로비전 여수지사 홈페이지 개발",
+      "summary": "CJ헬로비전 여수지사 웹 서비스 개발",
       "highlights": [
         "CJ헬로비전 여수지사 홈페이지 신규 개발 (Servlet, MySQL)"
       ]
@@ -179,9 +178,9 @@
       "endDate": "2022-03"
     },
     {
-      "institution": "순천대학교 (전남)",
+      "institution": "순천대학교",
       "area": "분자화학전공",
-      "studyType": "대학교 (중퇴)",
+      "studyType": "중퇴",
       "startDate": "2007-03",
       "endDate": "2011-12"
     }
@@ -196,16 +195,11 @@
       "name": "Oracle OCP 11g",
       "issuer": "Oracle",
       "date": "2017-01"
-    },
-    {
-      "name": "KOEN 한국남동발전 표창장",
-      "issuer": "KOEN 한국남동발전",
-      "date": "2017-10"
     }
   ],
   "skills": [
     {
-      "name": "Backend",
+      "name": "Backend Core",
       "level": "Expert",
       "keywords": [
         "Java",
@@ -214,30 +208,7 @@
         "Spring Batch",
         "Spring Data JPA",
         "MyBatis",
-        "RESTful API",
-        "eGov Framework"
-      ]
-    },
-    {
-      "name": "Frontend",
-      "level": "Intermediate",
-      "keywords": [
-        "JavaScript",
-        "jQuery",
-        "JSP",
-        "React",
-        "Vue.js",
-        "Thymeleaf"
-      ]
-    },
-    {
-      "name": "Mobile",
-      "level": "Intermediate",
-      "keywords": [
-        "Flutter",
-        "Dart",
-        "iOS (WidgetKit)",
-        "Android"
+        "RESTful API"
       ]
     },
     {
@@ -245,48 +216,56 @@
       "level": "Advanced",
       "keywords": [
         "Oracle",
+        "PostgreSQL",
         "MariaDB",
-        "MySQL",
-        "PostgreSQL"
+        "MySQL"
       ]
     },
     {
-      "name": "DevOps & Tools",
+      "name": "Mobile & Frontend",
+      "level": "Intermediate",
+      "keywords": [
+        "Flutter",
+        "Dart",
+        "JavaScript",
+        "React",
+        "Vue.js"
+      ]
+    },
+    {
+      "name": "DevOps & Infra",
       "level": "Intermediate",
       "keywords": [
         "Git",
         "GitHub Actions",
-        "Fastlane",
+        "Fastlane CI/CD",
         "Docker",
         "Linux",
         "AWS EC2"
       ]
     },
     {
-      "name": "Etc",
+      "name": "Backend Infra",
       "level": "Intermediate",
       "keywords": [
         "Supabase",
-        "Firebase",
-        "FCM",
-        "Swagger",
-        "DBeaver"
+        "Firebase (FCM)",
+        "JWT Authentication"
       ]
     }
   ],
   "projects": [
     {
       "name": "MeowRo - 길고양이 급식소 관리 앱",
-      "description": "길고양이 돌보미 커뮤니티를 위한 크로스플랫폼 앱. 기획부터 App Store/Play Store 출시까지 1인 풀스택 개발.",
+      "description": "길고양이 돌보미 커뮤니티를 위한 크로스플랫폼 앱. 기획→디자인→개발→배포→운영 전 과정을 1인 풀스택으로 수행하여 App Store/Play Store 양대 마켓 출시 완료.",
       "highlights": [
         "Flutter 3.41 + Riverpod + Clean Architecture 프론트엔드",
-        "Supabase (Auth, PostgreSQL, Storage, Edge Functions, Realtime) 백엔드",
-        "FCM 푸시 알림 인프라 구축 (APNs 연동)",
-        "iOS WidgetKit + Android Glance 홈 위젯",
-        "Fastlane CI/CD로 양대 마켓 자동 배포",
-        "OpenStreetMap + Kakao Local API 지도 검색"
+        "Supabase 백엔드 (Auth, PostgreSQL, Storage, Edge Functions, Realtime, RLS)",
+        "FCM 푸시 알림 인프라 구축 — iOS APNs 연동 트러블슈팅 해결",
+        "iOS WidgetKit + Android Glance 홈 화면 위젯",
+        "Fastlane CI/CD로 양대 마켓 원커맨드 자동 배포 (빌드→업로드 5분 이내)"
       ],
-      "keywords": ["Flutter", "Supabase", "FCM", "Fastlane", "CI/CD", "Clean Architecture"],
+      "keywords": ["Flutter", "Supabase", "FCM", "Fastlane", "CI/CD", "Clean Architecture", "WidgetKit"],
       "url": "https://github.com/byseungje/meowro-app",
       "roles": ["Creator", "Full-stack Developer"],
       "type": "application"
@@ -304,8 +283,8 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/byseungje/resume/main/resume.json",
-    "version": "v1.0.0",
+    "version": "v2.0.0",
     "lastModified": "2026-02-18",
-    "note": "Target position: Backend Developer. Skills are honest — no Redis/Kubernetes/MSA (no production experience)."
+    "note": "v2.0 — STAR format applied, strategic emphasis on client companies (Korea Post, KEPCO KDN, KISA). Skills honest: no Redis/Kubernetes/MSA (no production experience). eGov Framework removed from skills."
   }
 }
