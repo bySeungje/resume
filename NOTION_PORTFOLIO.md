@@ -11,7 +11,7 @@
 **Email** byseungje@gmail.com
 **GitHub** [github.com/byseungje](https://github.com/byseungje)
 **LinkedIn** [linkedin.com/in/seungje-ji](https://www.linkedin.com/in/seungje-ji/)
-**Velog** [velog.io/@byseungje](https://velog.io/@byseungje)
+**Velog** [velog.io/@byseungje](https://velog.io/@seungje_labs/posts)
 
 ---
 
@@ -517,7 +517,7 @@ PL로서 5명(주니어 3명 + 6년차 2명) 대상 Spring Batch 기술 교육 �
 | **Email** | [byseungje@gmail.com](mailto:byseungje@gmail.com) |
 | **GitHub** | [github.com/byseungje](https://github.com/byseungje) |
 | **LinkedIn** | [linkedin.com/in/seungje-ji](https://www.linkedin.com/in/seungje-ji/) |
-| **Velog** | [velog.io/@byseungje](https://velog.io/@byseungje) |
+| **Velog** | [velog.io/@byseungje](https://velog.io/@seungje_labs/posts) |
 | **Resume (JSON)** | [raw.githubusercontent.com/byseungje/resume/main/resume.json](https://raw.githubusercontent.com/byseungje/resume/main/resume.json) |
 
 ---
