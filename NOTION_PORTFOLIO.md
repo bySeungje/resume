@@ -363,18 +363,21 @@ PL로서 5명(주니어 3명 + 6년차 2명) 대상 Spring Batch 기술 교육 �
 | 기업 파트너십 | **현대자동차** 납품 MOU |
 | 멘토 기업 | **우아한형제들(배달의민족)** |
 | 공공데이터 연계 | 3개 소스 (도로공사 + OPINET + 영양성분표) |
-| 서비스 URL | [hupple.net](https://www.hupple.net) (2018년 콘텐츠 현존) |
+| 서비스 URL | [hupple.net](https://www.hupple.net) — [Wayback Machine 아카이브 (2018.09)](https://web.archive.org/web/20180929005638/http://www.hupple.net:80/) |
 
 ### 외부 참고 자료
 
 | 항목 | URL |
 |------|-----|
-| hupple.net 서비스 | [hupple.net](https://www.hupple.net) |
+| **hupple.net Wayback Machine 아카이브** | [web.archive.org (2018.09 스냅샷)](https://web.archive.org/web/20180929005638/http://www.hupple.net:80/) |
+| hupple.net 서비스 (도메인 만료) | [hupple.net](https://www.hupple.net) — Google 인덱스 잔존 |
+| hupple 블로그 (Tistory) | [hupple.tistory.com](https://web.archive.org/web/20190717111810/https://www.hupple.net/notice) |
 | 한국도로공사 공공데이터 포털 | [data.ex.co.kr](https://data.ex.co.kr) |
 | 도로공사 휴게소 푸드메뉴 API | [data.go.kr/data/15076643](https://www.data.go.kr/data/15076643/openapi.do) |
 | OPINET 유가정보 API | [opinet.co.kr](https://www.opinet.co.kr/user/custapi/custApiInfo.do) |
 | 휴게소 혁신 마스터플랜 2018 | [korea.kr 보도자료](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156295345) |
 | LoRa IoT 고속도로 네트워크 | [Semtech 보도자료](https://www.semtech.com/company/press/semtech-deploys-lora-based-network-for-south-korean-expressways) |
+| 스마트 화장실 관리서버 특허 | [KR101889913B1](https://patents.google.com/patent/KR101889913B1/ko) |
 
 ### 내가 배운 것
 
@@ -519,4 +522,4 @@ PL로서 5명(주니어 3명 + 6년차 2명) 대상 Spring Batch 기술 교육 �
 
 ---
 
-> *Last Updated: 2026-02-20 | Based on resume.json v5.0.0*
+> *Last Updated: 2026-02-20 | Based on resume.json v6.0.0*
