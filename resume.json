@@ -4,7 +4,6 @@
     "name": "지승제 (Seungje Ji)",
     "label": "금융 도메인 전문 백엔드 시니어 | AML · MyData · 결제정산",
     "email": "byseungje@gmail.com",
-    "phone": "[REDACTED]",
     "url": "https://github.com/byseungje",
     "summary": "AML·MyData·결제정산 도메인 11년차 백엔드 개발자. 우체국금융 AML 시스템에서 76개 STR 룰 의존관계를 DAG로 재설계하여 배치 처리 시간 64% 단축(5시간→1시간 48분). 한전KDN에서 COBOL 레거시 정산의 전기공급약관 위반 이자계산 오류를 발견해 40년간 누적 70억원 규모 소급 보정하고, Spring Batch 전환으로 월 175만 건 처리 시간 80%+ 단축. 우체국 쇼핑몰에서 외부 마켓 3사 공통 연동 아키텍처를 Anti-Corruption Layer + Adapter Pattern으로 설계해 신규 마켓 온보딩을 92% 단축(5개월→2~3주). CTO 2회·PM 2회 팀 리딩 경험과 Flutter 앱 1인 출시로 기술 리더십과 학습 민첩성을 증명합니다.",
     "location": {
