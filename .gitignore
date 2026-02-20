@@ -7,10 +7,6 @@ Thumbs.db
 .vscode/
 *.swp
 
-# Private notes (don't publish)
-RESUME_ANALYSIS.md
-STRATEGIC_ANALYSIS.md
-
 # Generated files
 *.html
 node_modules/

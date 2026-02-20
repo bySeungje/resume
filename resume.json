@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "지승제 (Seungje Ji)",
-    "label": "Backend Developer",
+    "label": "금융 도메인 전문 백엔드 시니어 | AML · MyData · 결제정산",
     "email": "byseungje@gmail.com",
     "phone": "[REDACTED]",
     "url": "https://github.com/byseungje",
-    "summary": "결제·정산·외부 연동 도메인 10년차 백엔드 개발자. 우체국 쇼핑몰에서 일 17K~26K 주문을 처리하는 결제/클레임 시스템을 2년간 운영하며 외부 마켓 3사(11번가·옥션·G마켓) 공통 아키텍처를 설계해 매출 ~20% 증가에 기여했습니다. 한전KDN에서는 COBOL 레거시 정산 배치를 Spring Batch로 전환하여 월 175만 건 처리 시간을 80% 이상 단축(3~4시간→40~50분)했습니다. CTO 2회·PM 2회 팀 리딩 경험과 Flutter 앱 1인 출시(App Store/Play Store)로 기술 리더십과 학습 민첩성을 동시에 증명합니다.",
+    "summary": "AML·MyData·결제정산 도메인 11년차 백엔드 개발자. 우체국금융 AML 시스템에서 76개 STR 룰 의존관계를 DAG로 재설계하여 배치 처리 시간 64% 단축(5시간→1시간 48분). 한전KDN에서 COBOL 레거시 정산의 전기공급약관 위반 이자계산 오류를 발견해 40년간 누적 70억원 규모 소급 보정하고, Spring Batch 전환으로 월 175만 건 처리 시간 80%+ 단축. 우체국 쇼핑몰에서 외부 마켓 3사 공통 연동 아키텍처를 Anti-Corruption Layer + Adapter Pattern으로 설계해 신규 마켓 온보딩을 92% 단축(5개월→2~3주). CTO 2회·PM 2회 팀 리딩 경험과 Flutter 앱 1인 출시로 기술 리더십과 학습 민첩성을 증명합니다.",
     "location": {
       "city": "나주시",
       "region": "전라남도",
@@ -47,7 +47,9 @@
       "endDate": "2025-02",
       "summary": "우체국금융 자금세탁방지(AML) 시스템 성능 최적화",
       "highlights": [
-        "STR(의심거래보고) 추출 배치의 단일 처리 구조를 병렬 처리로 재설계 — 처리 시간 5시간→1시간 48분 (64% 단축)",
+        "76개 STR(의심거래보고) 룰 의존관계를 DAG로 분석 — 선후행 제약 룰과 병렬화 가능 룰을 분리하여 배치 처리 시간 5시간→1시간 48분 (64% 단축)",
+        "4층 중첩 루프 구조 진단 및 룰 우선순위 재설계 — EDD/CDD 워크플로우 순서 최적화",
+        "양방향 시제(Bi-temporal) 데이터 관리 설계 — 금융 규제 감사 대응 이력 추적 체계 구축",
         "룰 추출 모니터링 로그 시스템 독자 구축 — 대규모 데이터 처리 중 오류 실시간 탐지 체계 마련"
       ]
     },
@@ -112,8 +114,8 @@
       "summary": "COBOL 레거시 정산 배치를 Spring Batch로 전환 — 월 175만 건, 처리 시간 80%+ 단축",
       "highlights": [
         "COBOL 기반 전기요금 정산 로직을 Spring Batch로 재설계·구현 — 월 175만 건(피크 일 20~30만 건) 처리, 3~4시간→40~50분으로 80%+ 단축",
-        "카카오페이·네이버페이·농어촌융자금 연동 정산 배치 구현 — 3개 외부 결제 채널 통합",
-        "COBOL 고정소수점 vs Java 부동소수점 차이에서 이자 계산 오류 발견 — 40년간 누적 데이터 소급 보정",
+        "카카오페이·네이버페이 PG 연동 및 농어촌융자금 연동 정산 배치 구현 — 3개 외부 결제 채널 통합",
+        "COBOL 내부 라운딩 로직의 전기공급약관 규정 위반 발견 — 40년간 누적 약 70억원 규모 이자계산 오류 소급 보정",
         "PL로서 초급 개발자 5명 대상 Spring Batch 기술 교육 및 코드 리뷰 진행"
       ]
     },
@@ -151,24 +153,26 @@
       "endDate": "2020-11",
       "summary": "일 17K~26K 주문 처리 이커머스 시스템 2년 운영 — 외부 마켓 3사 공통 아키텍처 설계, 매출 ~20% 증가 기여",
       "highlights": [
-        "결제·클레임 처리 백엔드 2년 운영 — 일 17K~26K 주문, 주문아이템 수천만 건 규모 트랜잭션 담당",
-        "옥션·G마켓·11번가 외부 마켓 공통 아키텍처 설계 (12명 프로젝트, WBS 25% 리드) — 매출 ~20% 증가 기여",
-        "eBay 최초 연동 5개월 → 11번가 2~3주로 단축 — 공통 프로세스 추상화로 신규 마켓 연동 공수 대폭 절감",
+        "결제·클레임·정산 대사 처리 백엔드 2년 운영 — 일 17K~26K 주문, 주문아이템 수천만 건 규모 대용량 트랜잭션 담당",
+        "옥션·G마켓·11번가 외부 마켓 공통 아키텍처 설계 (Anti-Corruption Layer + Adapter Pattern + Canonical Data Model, 12명 프로젝트 WBS 25% 리드) — 매출 ~20% 증가 기여",
+        "eBay 최초 연동 5개월 → 11번가 2~3주로 92% 단축 — Adapter 구현만으로 신규 마켓 온보딩 가능한 공통 아키텍처 확립",
         "주문/클레임 처리 로직 개선 + e콜센터 자동화로 CS 응대 건수 약 30% 감소 달성",
         "복합 결제(신용카드·무통장·온누리상품권), 대량 주문 엑셀 업로드, 장바구니 쿠폰 기능 개발"
       ]
     },
     {
       "name": "(주)홍카",
-      "position": "팀장",
+      "position": "대리 → 팀장 / 1인 기획·설계·개발",
       "startDate": "2017-03",
       "endDate": "2018-09",
-      "summary": "현대자동차 계열 휴게소 정보 B2C 플랫폼 — BM 재설계로 2억원 투자 유치",
+      "summary": "hupple(휴플) 휴게소 정보 B2C 플랫폼 — 1인 기획·설계·개발, 현대자동차 납품 MOU 체결, 우아한형제들 멘토링, BM 재설계로 2억원 투자 유치",
       "highlights": [
-        "기존 BM의 기술적 한계를 분석해 아키텍처 전면 재설계 — 2억원 외부 투자 유치 성과",
-        "휴게소 정보 플랫폼 전체 아키텍처 설계·구축 (Spring, MariaDB, AWS EC2) — 우아한형제들 멘토링",
-        "위치 기반 최저가 주유소 추천, IoT 화장실 청결도 표시, RESTful API 설계",
-        "Web + Android App 동시 서비스 운영 — Front/Back Office 및 공공데이터 연계"
+        "hupple(휴플) 서비스 기획·설계·풀스택 개발을 1인 전담 — FO/BO/REST API/Android App 전체 아키텍처 구축 (Spring, MariaDB, AWS EC2, JSP, jQuery)",
+        "현대자동차 납품 MOU 체결 — 휴게소 정보 데이터(음식 추천·최저가 주유소·화장실 청결도) 제공 계약",
+        "우아한형제들(배달의민족) 멘토 기업 지원 — 서비스 BM 고도화 및 플랫폼 전략 멘토링",
+        "기존 BM의 기술적 한계를 분석해 아키텍처 전면 재설계 → 2억원 외부 투자 유치 성과",
+        "한국도로공사 공공데이터(data.ex.co.kr) + OPINET 유가정보 API + 영양성분표 공공데이터 연계 — IoT 화장실 청결도 센서 데이터 통합",
+        "hupple.net 웹 서비스 + Android/iOS 앱 + WordPress 정보 포털 + 관리자 Back Office 동시 운영"
       ]
     },
     {
@@ -275,6 +279,23 @@
         "Firebase (FCM)",
         "JWT Authentication"
       ]
+    },
+    {
+      "name": "Domain Expertise",
+      "level": "Expert",
+      "keywords": [
+        "AML (Anti-Money Laundering)",
+        "FDS (Fraud Detection System)",
+        "MyData API",
+        "Payment & Settlement",
+        "PG/VAN Integration",
+        "Settlement Reconciliation (정산 대사)",
+        "Financial Compliance",
+        "Financial Regulation Compliance",
+        "Batch Processing",
+        "Legacy Modernization",
+        "E-Commerce Integration"
+      ]
     }
   ],
   "projects": [
@@ -306,8 +327,8 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/byseungje/resume/main/resume.json",
-    "version": "v3.0.0",
-    "lastModified": "2026-02-18",
-    "note": "v3.0 — All 7 PDFs cross-referenced and merged. Quantitative metrics applied: daily orders 17K-26K, monthly 1.75M settlements, 80%+ batch time reduction, ~20% revenue increase, 64% AML optimization, 300+ security fixes, 2B KRW investment. Skills honest: no Redis/Kubernetes/MSA."
+    "version": "v6.0.0",
+    "lastModified": "2026-02-20",
+    "note": "v6.0 — 홍카/hupple 첫 개발 경력 상세화. position '대리→팀장/1인 기획·설계·개발', 현대자동차 납품 MOU, 우아한형제들 멘토링, hupple.net 서비스명, 공공데이터 API(data.ex.co.kr, OPINET) 연계 상세, IoT 센서 통합 명시. 6개 하이라이트로 확장."
   }
 }
