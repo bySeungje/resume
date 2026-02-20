@@ -204,6 +204,20 @@
       "endDate": "2022-03"
     },
     {
+      "institution": "한울직업전문학교",
+      "area": "웹프로그래밍, 안드로이드, Oracle, IoT 개발자 양성",
+      "studyType": "수료",
+      "startDate": "2016-09",
+      "endDate": "2017-02"
+    },
+    {
+      "institution": "GS ITM",
+      "area": "웹프로그래머 양성 과정",
+      "studyType": "수료",
+      "startDate": "2010-07",
+      "endDate": "2011-01"
+    },
+    {
       "institution": "순천대학교",
       "area": "분자화학전공",
       "studyType": "중퇴",
@@ -218,9 +232,24 @@
       "date": "2020-11"
     },
     {
+      "name": "공공데이터 활용 플랫폼 개발 장려상",
+      "issuer": "KOEN 한국남동발전",
+      "date": "2017-10"
+    },
+    {
       "name": "Oracle OCP 11g",
       "issuer": "Oracle",
       "date": "2017-01"
+    },
+    {
+      "name": "텔레마케팅관리사",
+      "issuer": "한국산업인력공단",
+      "date": "2016-06"
+    },
+    {
+      "name": "정보기술자격(ITQ) 아래한글 A등급",
+      "issuer": "한국생산성본부(KPC)",
+      "date": "2005-10"
     }
   ],
   "skills": [
