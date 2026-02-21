@@ -7,12 +7,9 @@ Thumbs.db
 .vscode/
 *.swp
 
-# Private (전략/면접 — 로컬에서만 관리)
-INTERVIEW_PREP.md
-COVER_LETTERS.md
-ULTRA_ANALYSIS_10AGENT_v3.md
-LINKEDIN_UPDATE_GUIDE.md
-CAREER_STRATEGY.md
+# Private (전략/면접/분석 — 로컬에서만 관리)
+private/
+applications/
 
 # Generated files
 *.html
