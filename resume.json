@@ -31,12 +31,11 @@
   "work": [
     {
       "name": "앤솔루션",
-      "position": "개발팀 팀장 / PL",
+      "position": "PM",
       "startDate": "2025-03",
-      "summary": "한전 AMI 회선관리 시스템 PL 및 개발팀 리딩",
+      "summary": "한전 AMI 회선관리 시스템 구축 PM",
       "highlights": [
-        "한전 AMI 회선관리 시스템 PL — Spring Boot + JPA 기반 팀 리드",
-        "개발팀 리딩: 프로젝트별 기술 스택 선정, 아키텍처 리뷰, 코드 품질 기준 수립",
+        "한전 AMI 회선관리 시스템 구축 PM — Spring Boot + JPA 기반 프로젝트 관리 및 팀 리드",
         "Claude CLI 기반 AI 페어 프로그래밍 도입 — 코드 리뷰, 리팩토링, 테스트 코드 작성, 기술 리서치에 활용하여 개발 생산성 향상"
       ]
     },
