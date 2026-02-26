@@ -5,7 +5,7 @@
     "label": "금융 도메인 전문 백엔드 시니어 | AML · MyData · 결제정산",
     "email": "byseungje@gmail.com",
     "url": "https://github.com/byseungje",
-    "summary": "AML·MyData·결제정산 도메인 11년차 백엔드 개발자. 우체국금융 AML 시스템에서 76개 STR 룰 의존관계를 DAG로 재설계하여 배치 처리 시간 64% 단축(5시간→1시간 48분). 한전KDN에서 COBOL 레거시 정산의 전기공급약관 위반 이자계산 오류를 발견해 40년간 누적 70억원 규모 소급 보정하고, Spring Batch 전환으로 월 175만 건 처리 시간 80%+ 단축. 우체국 쇼핑몰에서 외부 마켓 3사 공통 연동 아키텍처를 Anti-Corruption Layer + Adapter Pattern으로 설계해 신규 마켓 온보딩을 92% 단축(5개월→2~3주). CTO 2회·PM 2회 팀 리딩 경험과 Flutter 앱 1인 출시로 기술 리더십과 학습 민첩성을 증명합니다.",
+    "summary": "AML·MyData·결제정산 도메인 11년차 백엔드 개발자. 운영 현장에서 리스크와 비효율을 직접 도출하고 개선을 주도합니다. 우체국금융 AML에서 단일 스레드 배치의 야간 장애 리스크를 식별하여 76개 STR 룰 DAG 재설계로 처리 시간 64% 단축(5시간→1시간 48분). 한전KDN에서 COBOL→Spring Batch 전환 중 40년간 방치된 이자계산 규정 위반 오류를 직접 발견해 70억원 규모 소급 보정. 우체국 쇼핑몰에서 마켓 3사 순차 연동 계획에 대해 공통 아키텍처(ACL + Adapter Pattern)를 선제 설계하여 온보딩 92% 단축(5개월→2~3주). CTO 2회·PM 2회 팀 리딩과 AI 페어 프로그래밍(Claude CLI) 도입으로 기술 리더십과 학습 민첩성을 증명합니다.",
     "location": {
       "city": "나주시",
       "region": "전라남도",
@@ -36,18 +36,19 @@
       "summary": "한전 AMI 회선관리 시스템 PL 및 개발팀 리딩",
       "highlights": [
         "한전 AMI 회선관리 시스템 PL — Spring Boot + JPA 기반 팀 리드",
-        "개발팀 리딩: 프로젝트별 기술 스택 선정, 아키텍처 리뷰, 코드 품질 기준 수립"
+        "개발팀 리딩: 프로젝트별 기술 스택 선정, 아키텍처 리뷰, 코드 품질 기준 수립",
+        "Claude CLI 기반 AI 페어 프로그래밍 도입 — 코드 리뷰, 리팩토링, 테스트 코드 작성, 기술 리서치에 활용하여 개발 생산성 향상"
       ]
     },
     {
       "name": "우체국금융 AML (파견: 인노앤엘테크)",
       "position": "과장 / 백엔드 개발자",
       "startDate": "2025-01",
-      "endDate": "2025-02",
-      "summary": "우체국금융 자금세탁방지(AML) 시스템 성능 최적화",
+      "endDate": "2025-12",
+      "summary": "우체국금융 자금세탁방지(AML) 시스템 — 운영 리스크 직접 도출 및 성능 최적화",
       "highlights": [
-        "76개 STR(의심거래보고) 룰 의존관계를 DAG로 분석 — 선후행 제약 룰과 병렬화 가능 룰을 분리하여 배치 처리 시간 5시간→1시간 48분 (64% 단축)",
-        "4층 중첩 루프 구조 진단 및 룰 우선순위 재설계 — EDD/CDD 워크플로우 순서 최적화",
+        "단일 스레드 5시간 배치의 야간 장애 시 새벽 긴급 출근 리스크를 직접 도출·제안 — 76개 STR 룰 의존관계를 DAG로 분석하여 병렬화 가능 룰 분리, 배치 처리 시간 5시간→1시간 48분(64% 단축)",
+        "4층 중첩 루프의 순차 실행으로 단일 룰 오류 시 전체 배치가 중단되는 구조적 취약점 진단 — 룰 우선순위 재설계 및 EDD/CDD 워크플로우 분리로 장애 격리 구조 확보",
         "양방향 시제(Bi-temporal) 데이터 관리 설계 — 금융 규제 감사 대응 이력 추적 체계 구축",
         "룰 추출 모니터링 로그 시스템 독자 구축 — 대규모 데이터 처리 중 오류 실시간 탐지 체계 마련"
       ]
@@ -114,7 +115,7 @@
       "highlights": [
         "COBOL 기반 전기요금 정산 로직을 Spring Batch로 재설계·구현 — 월 175만 건(피크 일 20~30만 건) 처리, 3~4시간→40~50분으로 80%+ 단축",
         "카카오페이·네이버페이 PG 연동 및 농어촌융자금 연동 정산 배치 구현 — 3개 외부 결제 채널 통합",
-        "COBOL 내부 라운딩 로직의 전기공급약관 규정 위반 발견 — 40년간 누적 약 70억원 규모 이자계산 오류 소급 보정",
+        "COBOL→Spring Batch 전환을 위한 소스 분석 중 내부 라운딩 로직이 전기공급약관 규정을 위반하는 것을 직접 발견 — 40년간 누적 약 70억원 규모 이자계산 오류 소급 보정",
         "PL로서 초급 개발자 5명 대상 Spring Batch 기술 교육 및 코드 리뷰 진행"
       ]
     },
@@ -153,7 +154,7 @@
       "summary": "일 17K~26K 주문 처리 이커머스 시스템 2년 운영 — 외부 마켓 3사 공통 아키텍처 설계, 매출 ~20% 증가 기여",
       "highlights": [
         "결제·클레임·정산 대사 처리 백엔드 2년 운영 — 일 17K~26K 주문, 주문아이템 수천만 건 규모 대용량 트랜잭션 담당",
-        "옥션·G마켓·11번가 외부 마켓 공통 아키텍처 설계 (Anti-Corruption Layer + Adapter Pattern + Canonical Data Model, 12명 프로젝트 WBS 25% 리드) — 매출 ~20% 증가 기여",
+        "3사 순차 연동 계획에 대해 개별 개발 대신 공통 아키텍처(Anti-Corruption Layer + Adapter Pattern + Canonical Data Model)를 선제 설계·제안 (12명 프로젝트 WBS 25% 리드) — 매출 ~20% 증가 기여",
         "eBay 최초 연동 5개월 → 11번가 2~3주로 92% 단축 — Adapter 구현만으로 신규 마켓 온보딩 가능한 공통 아키텍처 확립",
         "주문/클레임 처리 로직 개선 + e콜센터 자동화로 CS 응대 건수 약 30% 감소 달성",
         "복합 결제(신용카드·무통장·온누리상품권), 대량 주문 엑셀 업로드, 장바구니 쿠폰 기능 개발"
@@ -309,6 +310,16 @@
       ]
     },
     {
+      "name": "AI-Assisted Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Claude CLI (AI Pair Programming)",
+        "AI Code Review & Refactoring",
+        "AI-Driven Test Code Generation",
+        "AI-Powered Research & Documentation"
+      ]
+    },
+    {
       "name": "Domain Expertise",
       "level": "Expert",
       "keywords": [
@@ -355,8 +366,8 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/byseungje/resume/main/resume.json",
-    "version": "v6.0.0",
-    "lastModified": "2026-02-20",
-    "note": "v6.0 — 홍카/hupple 첫 개발 경력 상세화. position '대리→팀장/1인 기획·설계·개발', 현대자동차 납품 MOU, 우아한형제들 멘토링, hupple.net 서비스명, 공공데이터 API(data.ex.co.kr, OPINET) 연계 상세, IoT 센서 통합 명시. 6개 하이라이트로 확장."
+    "version": "v7.0.0",
+    "lastModified": "2026-02-26",
+    "note": "v7.0 — 멘토링 인사이트 기반 전면 리프레이밍. WHY→WHAT→RESULT 3단 구조 적용. AML: 운영 리스크 도출 스토리 추가(야간 장애/새벽 출근 리스크 직접 발견·제안). COBOL: 전환 중 발견 맥락 명시. 마켓 연동: 선제 설계 의사결정 강조. AI 페어 프로그래밍(Claude CLI) 활용 추가. summary에 WHY-driven 개발자 정체성 부여."
   }
 }
