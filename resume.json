@@ -174,26 +174,6 @@
         "한국도로공사 공공데이터(data.ex.co.kr) + OPINET 유가정보 API + 영양성분표 공공데이터 연계 — IoT 화장실 청결도 센서 데이터 통합",
         "hupple.net 웹 서비스 + Android/iOS 앱 + WordPress 정보 포털 + 관리자 Back Office 동시 운영"
       ]
-    },
-    {
-      "name": "(주)서한통산",
-      "position": "대리",
-      "startDate": "2015-04",
-      "endDate": "2016-08",
-      "summary": "구인구직 인사관리 시스템 신규 개발",
-      "highlights": [
-        "구인구직 인사관리 시스템 신규 설계·개발 (Servlet, MySQL)"
-      ]
-    },
-    {
-      "name": "(주)정우정보통신",
-      "position": "사원",
-      "startDate": "2013-06",
-      "endDate": "2014-05",
-      "summary": "CJ헬로비전 여수지사 웹 서비스 개발",
-      "highlights": [
-        "CJ헬로비전 여수지사 홈페이지 신규 개발 (Servlet, MySQL)"
-      ]
     }
   ],
   "education": [
