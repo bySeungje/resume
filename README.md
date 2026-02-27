@@ -65,11 +65,6 @@ AI Tools   ████████░░░░░░░░░░░░  Claude 
 
 ---
 
-### Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
 ### Connect
 
 [![Gmail](https://img.shields.io/badge/-byseungje@gmail.com-EA4335?style=flat&logo=Gmail&logoColor=white)](mailto:byseungje@gmail.com)
