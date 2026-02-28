@@ -5,7 +5,7 @@
     "label": "금융 도메인 전문 백엔드 시니어 | AML · MyData · 결제정산",
     "email": "byseungje@gmail.com",
     "url": "https://github.com/byseungje",
-    "summary": "AML·MyData·결제정산 도메인 10년차 백엔드 개발자. 운영 현장에서 리스크와 비효율을 직접 도출하고 개선을 주도합니다. 우체국금융 AML에서 단일 스레드 배치의 야간 장애 리스크를 식별하여 76개 STR 룰 DAG 재설계로 처리 시간 64% 단축(5시간→1시간 48분). 한전KDN에서 COBOL→Spring Batch 전환 중 40년간 방치된 이자계산 규정 위반 오류를 직접 발견해 70억원 규모 소급 보정. 우체국 쇼핑몰에서 마켓 3사 순차 연동 계획에 대해 공통 아키텍처(ACL + Adapter Pattern)를 선제 설계하여 온보딩 92% 단축(5개월→2~3주). CTO 2회·PM 2회 팀 리딩과 AI 페어 프로그래밍(Claude CLI) 도입으로 기술 리더십과 학습 민첩성을 증명합니다.",
+    "summary": "AML·MyData·결제정산 도메인 10년차 백엔드 개발자. 운영 현장에서 리스크와 비효율을 직접 도출하고 개선을 주도합니다. 우체국금융 AML에서 단일 스레드 배치의 야간 장애 리스크를 식별하여 76개 STR 룰 DAG 재설계로 처리 시간 64% 단축(5시간→1시간 48분). 한전KDN에서 COBOL→Spring Batch 전환 중 40년간 방치된 이자계산 규정 위반 오류를 직접 발견해 70억원 규모 소급 보정. 우체국 쇼핑몰에서 마켓 3사 순차 연동 계획에 대해 공통 아키텍처(ACL + Adapter Pattern)를 선제 설계하여 온보딩 92% 단축(5개월→2~3주). CTO 2회·PM 2회 팀 리딩과 AI 페어 프로그래밍(Claude Code) 도입으로 기술 리더십과 학습 민첩성을 증명합니다.",
     "location": {
       "city": "나주시",
       "region": "전라남도",
@@ -36,7 +36,7 @@
       "summary": "한전 AMI 회선관리 시스템 구축 PM",
       "highlights": [
         "한전 AMI 회선관리 시스템 구축 PM — Spring Boot + JPA 기반 프로젝트 관리 및 팀 리드",
-        "Claude CLI 기반 AI 페어 프로그래밍 도입 — 코드 리뷰, 리팩토링, 테스트 코드 작성, 기술 리서치에 활용하여 개발 생산성 향상"
+        "Claude Code(CLI) 기반 AI 페어 프로그래밍 프로세스 구축 — AGENTS.md 컨텍스트 설계로 도메인 특화 코드 리뷰·생성 워크플로우 확립, 개발 생산성 향상"
       ]
     },
     {
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "name": "널코드",
+      "name": "코엑시스",
       "position": "CTO / 풀스택 개발자",
       "startDate": "2024-01",
       "endDate": "2025-02",
@@ -293,10 +293,10 @@
       "name": "AI-Assisted Development",
       "level": "Intermediate",
       "keywords": [
-        "Claude CLI (AI Pair Programming)",
+        "Claude Code — AI Pair Programming & Context Engineering",
+        "AGENTS.md 기반 도메인 특화 AI 워크플로우 설계",
         "AI Code Review & Refactoring",
-        "AI-Driven Test Code Generation",
-        "AI-Powered Research & Documentation"
+        "AI-Driven Test Code Generation"
       ]
     },
     {

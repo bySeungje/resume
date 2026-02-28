@@ -26,7 +26,7 @@ Database   ████████████████░░░░  Oracle,
 Mobile     ████████████░░░░░░░░  Flutter, Dart (Cross-platform Apps)
 Frontend   ██████████░░░░░░░░░░  React, Vue.js, JavaScript
 DevOps     ████████░░░░░░░░░░░░  GitHub Actions, Fastlane, Docker
-AI Tools   ████████░░░░░░░░░░░░  Claude CLI (AI Pair Programming, Code Review, Test Generation)
+AI Tools   ████████░░░░░░░░░░░░  Claude Code (AI Pair Programming, Context Engineering)
 ```
 
 ### Certifications
@@ -43,9 +43,9 @@ AI Tools   ████████░░░░░░░░░░░░  Claude 
 
 | Period | Role | Project |
 |--------|------|---------|
-| 2026~ | PM | **앤솔루션** — 한전 AMI 회선관리 시스템 구축 PM & AI 페어 프로그래밍 도입 |
+| 2026~ | PM | **앤솔루션** — 한전 AMI 회선관리 시스템 구축 PM & Claude Code AI 페어 프로그래밍 프로세스 구축 |
 | 2025 | 백엔드 개발 | **우체국금융 AML** — 야간 배치 장애 리스크 직접 도출, 76개 STR 룰 DAG 재설계 **(직접 호출)** |
-| 2024 | CTO | **널코드** — 스타트업 플랫폼 기획~출시 (Flutter + Spring Boot) |
+| 2024 | CTO | **코엑시스** — 스타트업 플랫폼 기획~출시 (Flutter + Spring Boot) |
 | 2024 | 백엔드 개발 | **광주은행 R&D** — JB지주사 Mendix Low-Code 프레임워크 구축 |
 | 2023 | PM | **KISA 인터넷진흥원** — 스팸신고 앱, 털린내정보찾기, PMS |
 | 2023 | PL | **한전KDN 영배 4.0** — COBOL 전환 중 70억원 오류 직접 발견, Spring Batch 80%+ 단축 **(3회 지명)** |
